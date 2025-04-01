@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container header {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  min-height: 5vh;
+  background-color: #20232a;
+  color: #61dafb;
+  padding: 30px 20px;
+}
+
+.container header p {
+  font-weight: bold;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title_section {
+  min-height: 30vh;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  background-color: #282c34;
+}
+
+.title_section p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.title_section h1 {
+  color: #61dafb;
+}
+
+.title_section a {
+  background-color: #61dafb;
+  color: #000000;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 2px;
+}
+
+.req_section {
+  background-color: #fff;
+  color: #000000;
+  min-height: 50vh;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1024px;
+  text-align: center;
+}
+
+.cards div {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #282c34;
+  padding: 30px 20px;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px rgb(150, 150, 150);
+}
+
+.cards div h3 {
+  color: #edc854;
+}
+
+.cards div p {
+  color: #fff;
+}
+
+.container footer {
+  min-height: 5vh;
+  padding: 30px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f3f6;
+  color: #000000;
+}
